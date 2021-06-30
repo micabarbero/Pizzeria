@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    font-family: 'Lato', sans-serif;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 100px;
+    background-color:#222222;
+}
+
+.header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.menu{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    width: 1024px;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.ul-flex{
+    display: flex;
+    align-content: flex-end;
+    list-style: none;
+    align-content: flex-end;
+}
+
+li{
+    padding: 10px;
+    margin: 10px;
+}
+
+.logo{
+    padding: 10px;
+}
+
+/**BODY DE LA WEB**/
+
+body{
+    background-color: #E5E5E5;
+}
+
+.header-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/*BODY Y CONTENEDORES*/
+
+.heroe-container{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 30px;
+}
+
+.delivery{
+    max-width: 100%;
+    background-image: url(../img/delivery.jpg);
+    background-repeat: no-repeat;
+    background-size: 490px 350px;
+    padding: 150px;
+    display: flex;
+    flex-direction: column;
+}
+
+.textodelivery{
+    color: red;
+    font-weight: bold;
+}
+
+
+span{
+    color: white;
+    font-weight: bold;
+}
+
+.podiopizza{
+    max-width: 100%;
+    background-color: white;
+    background-size: 490px 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fotopizza{
+    width: 92px;
+    height: 129px;
+}
+
+.titulopodio{
+    color: red;
+    text-align: center;
+}
+
+.listayfoto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*FOOTER*/
+
+footer{
+    max-width: 100%;
+    background-color: #222222;
+    color:white;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+}
+
+.menufooter{
+    list-style: none;
+    padding: 20px;
+}
